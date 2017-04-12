@@ -1,0 +1,3 @@
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Time in Seconds
+com.compugain.testcases.MantisTestCases,AT_Verify_ReportNewIssue,N,Create a New Issue,ISSUES-,Mantis Automation Execution,windows 7,chrome,6.658
+com.compugain.testcases.MantisTestCases,AT_Verify_UpdateIssueStatus,N,Update Issue Status,ISSUES-,Mantis Automation Execution,windows 7,chrome,5.693

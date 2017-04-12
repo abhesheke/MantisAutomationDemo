@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Step-1:Browser Launched chrome<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-2:URL Entered http://localhost/mantisbt/login_page.php<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-3:UserName Entered administrator<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-4:Password Entered root<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-5:Clicked on Login Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-6:Report Issue Option Clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-7:Expected Value : true</br>Actual Value :true::PASS<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-1:Browser Launched chrome<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-2:URL Entered http://localhost/mantisbt/login_page.php<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-3:UserName Entered administrator<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-4:Password Entered root<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-5:Clicked on Login Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-6:Report Issue Option Clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-7:Expected Value : true</br>Actual Value :true::PASS<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-8:clicked Edit Button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-9:Selected Value From Status Dropdownclosed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-10:Clicked Update Information option <br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-11:Expected Value : false</br>Actual Value :false::PASS<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-1:Browser Launched firefox<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-2:URL Entered http://localhost/mantisbt/login_page.php<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-1:Browser Launched firefox<br>]]>
+    </line>
+    <line>
+      <![CDATA[Step-2:URL Entered http://localhost/mantisbt/login_page.php<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Mantis Automation Execution" duration-ms="164990" started-at="2017-04-12T10:00:57Z" finished-at="2017-04-12T10:03:42Z">
+    <groups>
+      <group name="ISSUES">
+        <method signature="MantisTestCases.AT_Verify_ReportNewIssue(java.lang.String)[pri:1, instance:com.compugain.testcases.MantisTestCases@1442d7b5]" name="AT_Verify_ReportNewIssue" class="com.compugain.testcases.MantisTestCases"/>
+        <method signature="MantisTestCases.AT_Verify_UpdateIssueStatus(java.lang.String)[pri:2, instance:com.compugain.testcases.MantisTestCases@1442d7b5]" name="AT_Verify_UpdateIssueStatus" class="com.compugain.testcases.MantisTestCases"/>
+        <method signature="MantisTestCases.AT_Verify_ReportNewIssue(java.lang.String)[pri:1, instance:com.compugain.testcases.MantisTestCases@282003e1]" name="AT_Verify_ReportNewIssue" class="com.compugain.testcases.MantisTestCases"/>
+        <method signature="MantisTestCases.AT_Verify_UpdateIssueStatus(java.lang.String)[pri:2, instance:com.compugain.testcases.MantisTestCases@282003e1]" name="AT_Verify_UpdateIssueStatus" class="com.compugain.testcases.MantisTestCases"/>
+      </group> <!-- ISSUES -->
+    </groups>
+    <test name="Mantis Executionon Chrome" duration-ms="152574" started-at="2017-04-12T10:00:57Z" finished-at="2017-04-12T10:03:30Z">
+      <class name="com.compugain.testcases.MantisTestCases">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.compugain.testcases.MantisTestCases@1442d7b5]" name="beforeClass" is-config="true" duration-ms="8" started-at="2017-04-12T15:30:57Z" finished-at="2017-04-12T15:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="AT_Verify_ReportNewIssue(java.lang.String)[pri:1, instance:com.compugain.testcases.MantisTestCases@1442d7b5]" name="AT_Verify_ReportNewIssue" duration-ms="61002" started-at="2017-04-12T15:30:57Z" description="Create a New Issue" finished-at="2017-04-12T15:31:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step-1:Browser Launched chrome<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-2:URL Entered http://localhost/mantisbt/login_page.php<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-3:UserName Entered administrator<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-4:Password Entered root<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-5:Clicked on Login Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-6:Report Issue Option Clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-7:Expected Value : true</br>Actual Value :true::PASS<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AT_Verify_ReportNewIssue -->
+        <test-method status="PASS" signature="AT_Verify_UpdateIssueStatus(java.lang.String)[pri:2, instance:com.compugain.testcases.MantisTestCases@1442d7b5]" name="AT_Verify_UpdateIssueStatus" duration-ms="91533" started-at="2017-04-12T15:31:58Z" description="Update Issue Status" finished-at="2017-04-12T15:33:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step-1:Browser Launched chrome<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-2:URL Entered http://localhost/mantisbt/login_page.php<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-3:UserName Entered administrator<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-4:Password Entered root<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-5:Clicked on Login Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-6:Report Issue Option Clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-7:Expected Value : true</br>Actual Value :true::PASS<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-8:clicked Edit Button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-9:Selected Value From Status Dropdownclosed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-10:Clicked Update Information option <br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-11:Expected Value : false</br>Actual Value :false::PASS<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AT_Verify_UpdateIssueStatus -->
+      </class> <!-- com.compugain.testcases.MantisTestCases -->
+    </test> <!-- Mantis Executionon Chrome -->
+    <test name="Mantis Executionon Firefox" duration-ms="12372" started-at="2017-04-12T10:03:30Z" finished-at="2017-04-12T10:03:42Z">
+      <class name="com.compugain.testcases.MantisTestCases">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.compugain.testcases.MantisTestCases@282003e1]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-04-12T15:33:30Z" finished-at="2017-04-12T15:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="AT_Verify_ReportNewIssue(java.lang.String)[pri:1, instance:com.compugain.testcases.MantisTestCases@282003e1]" name="AT_Verify_ReportNewIssue" duration-ms="6658" started-at="2017-04-12T15:33:30Z" description="Create a New Issue" finished-at="2017-04-12T15:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[Error: Permission denied to access property "style"
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '01DTP0046', ip: '172.24.12.169', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 428a1396-0650-44e2-a5bc-fd28f095653c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: Error: Permission denied to access property "style"
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '01DTP0046', ip: '172.24.12.169', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 428a1396-0650-44e2-a5bc-fd28f095653c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:537)
+	at com.ceiwc.compugain.funUtil.WebElements.highLight_perform(WebElements.java:655)
+	at com.ceiwc.compugain.funUtil.WebElements.enterText(WebElements.java:684)
+	at com.ceiwc.compugain.pageobjects.MantisLoginPage.enterUserName(MantisLoginPage.java:45)
+	at com.ceiwc.compugain.pageobjects.MantisLoginPage.loginas(MantisLoginPage.java:32)
+	at com.compugain.testcases.MantisTestCases.AT_Verify_ReportNewIssue(MantisTestCases.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Step-1:Browser Launched firefox<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-2:URL Entered http://localhost/mantisbt/login_page.php<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AT_Verify_ReportNewIssue -->
+        <test-method status="FAIL" signature="AT_Verify_UpdateIssueStatus(java.lang.String)[pri:2, instance:com.compugain.testcases.MantisTestCases@282003e1]" name="AT_Verify_UpdateIssueStatus" duration-ms="5693" started-at="2017-04-12T15:33:37Z" description="Update Issue Status" finished-at="2017-04-12T15:33:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[Error: Permission denied to access property "style"
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '01DTP0046', ip: '172.24.12.169', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: d6c3b95c-a663-46a5-8e47-ae1cdc251c7e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: Error: Permission denied to access property "style"
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '01DTP0046', ip: '172.24.12.169', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: d6c3b95c-a663-46a5-8e47-ae1cdc251c7e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:537)
+	at com.ceiwc.compugain.funUtil.WebElements.highLight_perform(WebElements.java:655)
+	at com.ceiwc.compugain.funUtil.WebElements.enterText(WebElements.java:684)
+	at com.ceiwc.compugain.pageobjects.MantisLoginPage.enterUserName(MantisLoginPage.java:45)
+	at com.ceiwc.compugain.pageobjects.MantisLoginPage.loginas(MantisLoginPage.java:32)
+	at com.compugain.testcases.MantisTestCases.AT_Verify_UpdateIssueStatus(MantisTestCases.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Step-1:Browser Launched firefox<br>]]>
+            </line>
+            <line>
+              <![CDATA[Step-2:URL Entered http://localhost/mantisbt/login_page.php<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AT_Verify_UpdateIssueStatus -->
+      </class> <!-- com.compugain.testcases.MantisTestCases -->
+    </test> <!-- Mantis Executionon Firefox -->
+  </suite> <!-- Mantis Automation Execution -->
+</testng-results>

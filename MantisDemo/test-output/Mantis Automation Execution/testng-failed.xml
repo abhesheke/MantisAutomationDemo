@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mantis Automation Execution]">
+  <parameter name="sbrowser" value="firefox"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.ceiwc.compugain.funUtil.CustomReporter"/>
+  </listeners>
+  <test name="Mantis Executionon Firefox(failed)">
+    <parameter name="sbrowser" value="firefox"/>
+    <classes>
+      <class name="com.compugain.testcases.MantisTestCases">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="AT_Verify_UpdateIssueStatus" invocation-numbers="0"/>
+          <include name="AT_Verify_ReportNewIssue" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.compugain.testcases.MantisTestCases -->
+    </classes>
+  </test> <!-- Mantis Executionon Firefox(failed) -->
+</suite> <!-- Failed suite [Mantis Automation Execution] -->

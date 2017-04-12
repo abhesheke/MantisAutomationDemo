@@ -1,0 +1,750 @@
+2017-04-11 14:20:41,986 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-11 14:20:45,066 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-11 14:20:46,342 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-11 14:20:46,342 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-11 14:20:46,344 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-11 14:20:48,325 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-11 14:20:48,326 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-11 14:20:50,216 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-11 14:20:50,216 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-11 14:20:53,286 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-11 14:20:53,287 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-11 15:22:07,679 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-11 15:22:10,721 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-11 15:22:11,874 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-11 15:22:11,874 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-11 15:22:11,881 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-11 15:22:13,864 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-11 15:22:13,864 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-11 15:22:15,735 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-11 15:22:15,735 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-11 15:22:18,544 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-11 15:22:18,544 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-11 15:22:21,193 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-11 18:22:29,207 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-11 18:22:32,256 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-11 18:22:33,385 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-11 18:22:33,386 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-11 18:22:33,397 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-11 18:22:35,481 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-11 18:22:35,481 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-11 18:22:37,463 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-11 18:22:37,463 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-11 18:22:40,309 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-11 18:22:40,309 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-11 18:22:42,726 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-11 18:22:42,737 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:22:42,926 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-11 18:22:42,926 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:22:43,110 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-11 18:22:43,110 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:22:43,291 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-11 18:22:43,292 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:22:43,467 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-11 18:30:43,273 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-11 18:30:46,277 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-11 18:30:47,587 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-11 18:30:47,587 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-11 18:30:47,590 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-11 18:30:49,632 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-11 18:30:49,633 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-11 18:30:51,531 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-11 18:30:51,532 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-11 18:30:54,398 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-11 18:30:54,398 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-11 18:30:57,275 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-11 18:30:57,288 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:30:57,482 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-11 18:30:57,482 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:30:57,671 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-11 18:30:57,672 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:30:57,850 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-11 18:30:57,851 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:30:58,031 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-11 18:33:01,038 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-11 18:33:04,072 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-11 18:33:05,345 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-11 18:33:05,345 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-11 18:33:05,352 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-11 18:33:07,303 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-11 18:33:07,303 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-11 18:33:09,148 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-11 18:33:09,148 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-11 18:33:11,972 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-11 18:33:11,973 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-11 18:33:14,409 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-11 18:33:14,426 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:33:14,609 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-11 18:33:14,610 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:33:14,786 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-11 18:33:14,786 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:33:14,956 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-11 18:33:14,957 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-11 18:33:15,130 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-11 18:33:35,487 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - Size of elements5
+2017-04-12 11:10:45,945 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 11:10:49,524 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 11:10:50,654 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 11:10:50,654 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 11:10:50,659 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 11:10:52,690 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 11:10:52,691 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 11:10:54,572 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 11:10:54,573 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 11:10:57,467 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 11:10:57,467 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 11:11:00,114 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 11:11:00,142 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 11:11:00,333 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 11:11:00,333 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 11:11:00,526 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 11:11:00,526 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 11:11:00,705 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 11:11:00,705 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 11:11:00,882 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 11:11:22,779 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - Size of elements6
+2017-04-12 12:04:02,487 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 12:04:05,536 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 12:04:06,645 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 12:04:06,645 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 12:04:06,647 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 12:04:08,656 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 12:04:08,657 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 12:04:10,555 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 12:04:10,555 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 12:04:13,440 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 12:04:13,440 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 12:04:15,927 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 12:04:15,938 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:04:16,143 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 12:04:16,144 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:04:16,339 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 12:04:16,340 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:04:16,512 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 12:04:16,513 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:04:16,684 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 12:04:39,550 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - Size of elements7
+2017-04-12 12:08:08,753 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 12:08:11,777 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 12:08:12,896 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 12:08:12,897 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 12:08:12,899 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 12:08:14,894 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 12:08:14,894 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 12:08:16,786 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 12:08:16,786 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 12:08:19,685 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 12:08:19,685 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 12:08:22,134 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 12:08:22,148 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:08:22,357 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 12:08:22,358 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:08:22,548 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 12:08:22,549 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:08:22,713 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 12:08:22,714 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:08:22,898 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 12:08:51,816 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - Size of elements8
+2017-04-12 12:10:12,043 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 12:10:15,063 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 12:10:16,246 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 12:10:16,247 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 12:10:16,256 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 12:10:18,226 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 12:10:18,226 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 12:10:20,110 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 12:10:20,110 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 12:10:22,883 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 12:10:22,884 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 12:10:25,383 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 12:10:25,401 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:10:25,595 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 12:10:25,596 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:10:25,787 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 12:10:25,787 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:10:25,960 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 12:10:25,961 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:10:26,144 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 12:10:56,217 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - Size of elements9
+2017-04-12 12:15:50,342 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 12:15:53,372 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 12:15:54,561 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 12:15:54,562 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 12:15:54,570 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 12:15:56,626 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 12:15:56,627 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 12:15:58,510 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 12:15:58,511 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 12:16:01,443 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 12:16:01,443 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 12:16:03,966 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 12:16:03,978 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:16:04,164 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 12:16:04,165 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:16:04,347 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 12:16:04,347 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:16:04,546 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 12:16:04,547 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:16:04,739 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 12:16:36,347 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - Size of elements10
+2017-04-12 12:17:06,315 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::true
+2017-04-12 12:17:06,316 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::true
+2017-04-12 12:17:06,316 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 12:17:06,317 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (4be7ad3af7cd8b5e78f4bb4dec8ab645)
+2017-04-12 12:17:06,317 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : true</br>Actual Value :true::PASS,
+2017-04-12 12:17:06,317 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_ReportNEWISSUE::::PASSED
+2017-04-12 12:46:00,640 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 12:46:03,672 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 12:46:04,833 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 12:46:04,835 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 12:46:04,838 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 12:46:06,901 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 12:46:06,902 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 12:46:08,802 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 12:46:08,802 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 12:46:11,762 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 12:46:11,762 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 12:46:14,200 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 12:46:14,211 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:46:14,415 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 12:46:14,416 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:46:14,612 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 12:46:14,612 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:46:14,781 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 12:46:14,782 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 12:46:14,952 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 12:46:50,150 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::true
+2017-04-12 12:46:50,150 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::true
+2017-04-12 12:46:50,151 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 12:46:50,151 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (7c9c649c9af62ca10621cc52224cf2b2)
+2017-04-12 12:46:50,151 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : true</br>Actual Value :true::PASS,
+2017-04-12 12:46:50,152 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_ReportNEWISSUE::::PASSED
+2017-04-12 14:48:04,100 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 14:48:07,120 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 14:48:08,394 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 14:48:08,394 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 14:48:08,396 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 14:48:10,395 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 14:48:10,396 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 14:48:12,279 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 14:48:12,280 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 14:48:15,471 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 14:48:15,472 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 14:48:17,992 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 14:48:18,017 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 14:48:18,211 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 14:48:18,212 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 14:48:18,389 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 14:48:18,389 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 14:48:18,568 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 14:48:18,568 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 14:48:18,756 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 14:48:55,169 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::true
+2017-04-12 14:48:55,170 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::true
+2017-04-12 14:48:55,170 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 14:48:55,170 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (f7b39ce956dccd20b973a62eed835c13)
+2017-04-12 14:48:55,171 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : true</br>Actual Value :true::PASS,
+2017-04-12 14:48:55,171 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_UpdateIssueStatus::::PASSED
+2017-04-12 14:48:57,729 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::clicked Edit Button,
+2017-04-12 14:48:57,753 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 14:48:57,935 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedclosed
+2017-04-12 14:48:57,936 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Selected Value From Status Dropdown,closed
+2017-04-12 14:49:18,123 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked Update Information option, 
+2017-04-12 14:49:18,178 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::true
+2017-04-12 14:49:18,178 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::false
+2017-04-12 14:49:18,179 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::<font color='red'>Expected Value trueActual Valuefalse::Fail</font>,
+2017-04-12 14:49:18,365 [main] ERROR com.compugain.Exception.CustomReport - *************sTestcaseNameAT_Verify_UpdateIssueStatus::::FAILED
+2017-04-12 15:14:37,274 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\FailedCases.csv
+2017-04-12 15:14:37,276 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\PassedCases.csv
+2017-04-12 15:14:37,276 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\SkippedCases.csv
+2017-04-12 15:14:37,422 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 15:14:40,494 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 15:14:41,754 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:14:41,755 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:14:41,761 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:14:43,838 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 15:14:43,839 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 15:14:45,738 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 15:14:45,739 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 15:14:48,652 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 15:14:48,653 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 15:14:51,107 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 15:14:51,119 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:14:51,330 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 15:14:51,331 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:14:51,507 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 15:14:51,508 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:14:51,686 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 15:14:51,686 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:14:51,870 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 15:15:30,479 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::true
+2017-04-12 15:15:30,480 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::true
+2017-04-12 15:15:30,480 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 15:15:30,480 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (ed41b9a769805894b231a7a1c1a6d03e)
+2017-04-12 15:15:30,481 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : true</br>Actual Value :true::PASS,
+2017-04-12 15:15:30,481 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_ReportNewIssue::::PASSED
+2017-04-12 15:15:31,252 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 15:15:33,582 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 15:15:34,743 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:15:34,743 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:15:34,743 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:15:36,722 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 15:15:36,723 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 15:15:38,580 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 15:15:38,581 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 15:15:41,787 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 15:15:41,787 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 15:15:44,174 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 15:15:44,181 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:15:44,368 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 15:15:44,369 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:15:44,543 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 15:15:44,543 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:15:44,732 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 15:15:44,732 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:15:44,918 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 15:16:24,553 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::true
+2017-04-12 15:16:24,553 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::true
+2017-04-12 15:16:24,554 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 15:16:24,554 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (5d6a795d25fb939bfb687b88abd3d65c)
+2017-04-12 15:16:24,554 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : true</br>Actual Value :true::PASS,
+2017-04-12 15:16:24,554 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_UpdateIssueStatus::::PASSED
+2017-04-12 15:16:27,018 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::clicked Edit Button,
+2017-04-12 15:16:27,042 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:16:27,226 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedclosed
+2017-04-12 15:16:27,226 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Selected Value From Status Dropdown,closed
+2017-04-12 15:16:50,790 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked Update Information option, 
+2017-04-12 15:16:50,851 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::false
+2017-04-12 15:16:50,852 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::false
+2017-04-12 15:16:50,852 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 15:16:50,852 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (5d6a795d25fb939bfb687b88abd3d65c)
+2017-04-12 15:16:50,853 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : false</br>Actual Value :false::PASS,
+2017-04-12 15:16:50,853 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_UpdateIssueStatus::::PASSED
+2017-04-12 15:16:51,615 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:firefox
+2017-04-12 15:16:55,983 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser name : Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+2017-04-12 15:16:56,042 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,firefox
+2017-04-12 15:16:57,213 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:16:57,213 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:16:57,214 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:16:57,291 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:firefox
+2017-04-12 15:17:02,127 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser name : Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+2017-04-12 15:17:02,135 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,firefox
+2017-04-12 15:17:03,212 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:17:03,213 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:17:03,213 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:17:03,613 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - THe Build No isnull
+2017-04-12 15:17:03,613 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Suite Name isMantis Automation Execution
+2017-04-12 15:17:03,635 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Passed test case name isAT_Verify_ReportNewIssue
+2017-04-12 15:17:03,645 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:17:03,646 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_ReportNewIssue@@@@@@Time53.835
+2017-04-12 15:17:03,646 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is53.835
+2017-04-12 15:17:03,646 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@340da44c
+2017-04-12 15:17:03,646 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Chrome
+2017-04-12 15:17:03,646 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_ReportNewIssue
+2017-04-12 15:17:03,646 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Create a New Issue
+2017-04-12 15:17:03,647 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:17:03,647 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Passed test case name isAT_Verify_UpdateIssueStatus
+2017-04-12 15:17:03,647 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:17:03,647 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_UpdateIssueStatus@@@@@@Time80.320
+2017-04-12 15:17:03,648 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is80.320
+2017-04-12 15:17:03,648 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@340da44c
+2017-04-12 15:17:03,648 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Chrome
+2017-04-12 15:17:03,648 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_UpdateIssueStatus
+2017-04-12 15:17:03,648 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Update Issue Status
+2017-04-12 15:17:03,648 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:17:03,648 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed tests for suite 'Mantis Automation Execution' is:0
+2017-04-12 15:17:03,649 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test are[ResultMap map={}]
+2017-04-12 15:17:03,649 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Skipped tests for suite 'Mantis Automation Execution' is:0
+2017-04-12 15:17:03,649 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed tests for suite 'Mantis Automation Execution' is:2
+2017-04-12 15:17:03,649 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test are[ResultMap map={[TestResult name=AT_Verify_UpdateIssueStatus status=FAILURE method=MantisTestCases.AT_Verify_UpdateIssueStatus(java.lang.String)[pri:2, instance:com.compugain.testcases.MantisTestCases@282003e1] output=Step-1:Browser Launched firefox<br>]=MantisTestCases.AT_Verify_UpdateIssueStatus(java.lang.String)[pri:2, instance:com.compugain.testcases.MantisTestCases@282003e1], [TestResult name=AT_Verify_ReportNewIssue status=FAILURE method=MantisTestCases.AT_Verify_ReportNewIssue(java.lang.String)[pri:1, instance:com.compugain.testcases.MantisTestCases@282003e1] output=Step-1:Browser Launched firefox<br>]=MantisTestCases.AT_Verify_ReportNewIssue(java.lang.String)[pri:1, instance:com.compugain.testcases.MantisTestCases@282003e1]}]
+2017-04-12 15:17:03,650 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test case name isAT_Verify_UpdateIssueStatus
+2017-04-12 15:17:03,650 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:17:03,650 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_UpdateIssueStatus@@@@@@Time6.041
+2017-04-12 15:17:03,650 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is6.041
+2017-04-12 15:17:03,650 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case6.041
+2017-04-12 15:17:03,650 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:17:03,651 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_UpdateIssueStatus@@@@@@Time6.041
+2017-04-12 15:17:03,651 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is6.041
+2017-04-12 15:17:03,651 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@366c4480
+2017-04-12 15:17:03,651 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Firefox
+2017-04-12 15:17:03,652 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_UpdateIssueStatus
+2017-04-12 15:17:03,652 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Update Issue Status
+2017-04-12 15:17:03,652 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:17:03,652 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test case name isAT_Verify_ReportNewIssue
+2017-04-12 15:17:03,652 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:17:03,653 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_ReportNewIssue@@@@@@Time5.666
+2017-04-12 15:17:03,653 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is5.666
+2017-04-12 15:17:03,653 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case5.666
+2017-04-12 15:17:03,653 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:17:03,653 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_ReportNewIssue@@@@@@Time5.666
+2017-04-12 15:17:03,653 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is5.666
+2017-04-12 15:17:03,654 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@366c4480
+2017-04-12 15:17:03,654 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Firefox
+2017-04-12 15:17:03,654 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_ReportNewIssue
+2017-04-12 15:17:03,654 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Create a New Issue
+2017-04-12 15:17:03,655 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:17:03,655 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Skipped tests for suite 'Mantis Automation Execution' is:0
+2017-04-12 15:17:05,114 [main] INFO  com.ceiwc.compugain.funUtil.BarChart - Key : Customer Creation Value : 2
+2017-04-12 15:17:05,136 [main] INFO  com.ceiwc.compugain.funUtil.BarChart - File path is /src/test/resources/GroupsReport.jpeg
+2017-04-12 15:17:05,137 [main] INFO  com.ceiwc.compugain.funUtil.BarChart - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\GroupsReport.jpeg
+2017-04-12 15:17:05,303 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - File not Found
+2017-04-12 15:17:05,303 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report NOT Created----------------------------
+2017-04-12 15:17:10,303 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report NOT Created----------------------------
+2017-04-12 15:17:15,303 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report NOT Created----------------------------
+2017-04-12 15:17:20,303 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report NOT Created----------------------------
+2017-04-12 15:17:25,303 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report NOT Created----------------------------
+2017-04-12 15:17:30,303 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - source file path isC:/Users/aabhesheke/git/CEIWC-Demo/DemoProject/test-output/html
+2017-04-12 15:17:30,307 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - -----------------2-----------------
+2017-04-12 15:17:30,308 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - -----------------3-----------------
+2017-04-12 15:17:30,308 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - File not Found
+2017-04-12 15:17:30,308 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - File not Found
+2017-04-12 15:17:30,310 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - File not Found
+2017-04-12 15:17:30,399 [main] INFO  com.ceiwc.compugain.setup.Configuration - Browser parameter isnull
+2017-04-12 15:17:30,399 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The bcc recipeients are rohith.kakumani@compugain.com
+2017-04-12 15:17:30,400 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The bcc recipeients are manoj.immadi@compugain.com
+2017-04-12 15:17:30,400 [main] INFO  com.ceiwc.compugain.setup.Configuration - Test Case File isnull
+2017-04-12 15:17:30,400 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Exception handled in email test cases
+2017-04-12 15:17:30,402 [main] INFO  com.compugain.beansfactory.BeanFactory - ip address is172.24.12.169
+2017-04-12 15:17:30,402 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Key : Customer Creation Value : 2
+2017-04-12 15:17:30,402 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Group Name isCustomer Creation
+2017-04-12 15:17:30,402 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Passed cases in Group2
+2017-04-12 15:17:30,402 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Failed cases in Group2
+2017-04-12 15:17:30,403 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Skipped cases in Group0
+2017-04-12 15:17:30,403 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - @@@@@@@@@@@@@@@@@Passed Percentage for Group50.0
+2017-04-12 15:17:30,403 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - @@@@@@@@@@@@@@@@@Failed Percentage for Group50.0
+2017-04-12 15:17:30,403 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - @@@@@@@@@@@@@@@@@Skipped Percentage for Group0.0
+2017-04-12 15:17:30,403 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Completed Creation of Table
+2017-04-12 15:17:30,407 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The images in the set are 1
+2017-04-12 15:17:30,414 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The file name isC:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\FailedCases.csv
+2017-04-12 15:17:30,414 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The file name isC:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\PassedCases.csv
+2017-04-12 15:17:38,621 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Passed Group Map Value is{Customer Creation=2}
+2017-04-12 15:17:38,621 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed Group Map Value is{Customer Creation=2}
+2017-04-12 15:17:38,621 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Skipped Group Map Value is{}
+2017-04-12 15:22:48,129 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\FailedCases.csv
+2017-04-12 15:22:48,131 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\PassedCases.csv
+2017-04-12 15:22:48,132 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\SkippedCases.csv
+2017-04-12 15:22:48,279 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 15:22:51,279 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 15:22:52,455 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:22:52,455 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:22:52,459 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:22:54,450 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 15:22:54,451 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 15:22:56,327 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 15:22:56,328 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 15:22:59,291 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 15:22:59,291 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 15:23:01,720 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 15:23:01,730 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:23:01,930 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 15:23:01,931 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:23:02,112 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 15:23:02,113 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:23:02,292 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 15:23:02,293 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:23:02,465 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 15:23:42,390 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::true
+2017-04-12 15:23:42,391 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::true
+2017-04-12 15:23:42,391 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 15:23:42,391 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (d4d044ac8ae27877b630d8a43715082b)
+2017-04-12 15:23:42,391 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : true</br>Actual Value :true::PASS,
+2017-04-12 15:23:42,392 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_ReportNewIssue::::PASSED
+2017-04-12 15:23:43,225 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 15:23:45,521 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 15:23:46,682 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:23:46,684 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:23:46,684 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:23:48,728 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 15:23:48,729 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 15:23:50,681 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 15:23:50,682 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 15:23:53,495 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 15:23:53,496 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 15:23:55,879 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 15:23:55,887 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:23:56,064 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 15:23:56,064 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:23:56,238 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 15:23:56,238 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:23:56,404 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 15:23:56,404 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:23:56,572 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 15:24:39,609 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::true
+2017-04-12 15:24:39,609 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::true
+2017-04-12 15:24:39,610 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 15:24:39,610 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (59fff89a50cc41b008f54b7a8dfab255)
+2017-04-12 15:24:39,610 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : true</br>Actual Value :true::PASS,
+2017-04-12 15:24:39,610 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_UpdateIssueStatus::::PASSED
+2017-04-12 15:24:42,081 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::clicked Edit Button,
+2017-04-12 15:24:42,115 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:24:42,313 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedclosed
+2017-04-12 15:24:42,314 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Selected Value From Status Dropdown,closed
+2017-04-12 15:25:09,444 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked Update Information option, 
+2017-04-12 15:25:09,509 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::false
+2017-04-12 15:25:09,510 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::false
+2017-04-12 15:25:09,510 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 15:25:09,510 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (59fff89a50cc41b008f54b7a8dfab255)
+2017-04-12 15:25:09,510 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : false</br>Actual Value :false::PASS,
+2017-04-12 15:25:09,510 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_UpdateIssueStatus::::PASSED
+2017-04-12 15:25:10,273 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:firefox
+2017-04-12 15:25:15,206 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser name : Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+2017-04-12 15:25:15,227 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,firefox
+2017-04-12 15:25:16,327 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:25:16,328 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:25:16,328 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:25:16,377 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:firefox
+2017-04-12 15:25:20,560 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser name : Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+2017-04-12 15:25:20,567 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,firefox
+2017-04-12 15:25:21,718 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:25:21,719 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:25:21,719 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:25:21,771 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - THe Build No isnull
+2017-04-12 15:25:21,771 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Suite Name isMantis Automation Execution
+2017-04-12 15:25:21,771 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Passed test case name isAT_Verify_ReportNewIssue
+2017-04-12 15:25:21,772 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:25:21,772 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_ReportNewIssue@@@@@@Time54.953
+2017-04-12 15:25:21,772 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is54.953
+2017-04-12 15:25:21,773 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@635572a7
+2017-04-12 15:25:21,773 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Chrome
+2017-04-12 15:25:21,773 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_ReportNewIssue
+2017-04-12 15:25:21,773 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Create a New Issue
+2017-04-12 15:25:21,773 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:25:21,774 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Passed test case name isAT_Verify_UpdateIssueStatus
+2017-04-12 15:25:21,774 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:25:21,774 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_UpdateIssueStatus@@@@@@Time87.001
+2017-04-12 15:25:21,774 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is87.001
+2017-04-12 15:25:21,774 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@635572a7
+2017-04-12 15:25:21,774 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Chrome
+2017-04-12 15:25:21,775 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_UpdateIssueStatus
+2017-04-12 15:25:21,775 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Update Issue Status
+2017-04-12 15:25:21,775 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:25:21,775 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed tests for suite 'Mantis Automation Execution' is:0
+2017-04-12 15:25:21,775 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test are[ResultMap map={}]
+2017-04-12 15:25:21,775 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Skipped tests for suite 'Mantis Automation Execution' is:0
+2017-04-12 15:25:21,776 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed tests for suite 'Mantis Automation Execution' is:2
+2017-04-12 15:25:21,776 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test are[ResultMap map={[TestResult name=AT_Verify_ReportNewIssue status=FAILURE method=MantisTestCases.AT_Verify_ReportNewIssue(java.lang.String)[pri:1, instance:com.compugain.testcases.MantisTestCases@282003e1] output=Step-1:Browser Launched firefox<br>]=MantisTestCases.AT_Verify_ReportNewIssue(java.lang.String)[pri:1, instance:com.compugain.testcases.MantisTestCases@282003e1], [TestResult name=AT_Verify_UpdateIssueStatus status=FAILURE method=MantisTestCases.AT_Verify_UpdateIssueStatus(java.lang.String)[pri:2, instance:com.compugain.testcases.MantisTestCases@282003e1] output=Step-1:Browser Launched firefox<br>]=MantisTestCases.AT_Verify_UpdateIssueStatus(java.lang.String)[pri:2, instance:com.compugain.testcases.MantisTestCases@282003e1]}]
+2017-04-12 15:25:21,778 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test case name isAT_Verify_ReportNewIssue
+2017-04-12 15:25:21,778 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:25:21,778 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_ReportNewIssue@@@@@@Time6.096
+2017-04-12 15:25:21,778 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is6.096
+2017-04-12 15:25:21,778 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case6.096
+2017-04-12 15:25:21,778 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:25:21,779 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_ReportNewIssue@@@@@@Time6.096
+2017-04-12 15:25:21,787 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is6.096
+2017-04-12 15:25:21,788 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@1c32386d
+2017-04-12 15:25:21,788 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Firefox
+2017-04-12 15:25:21,788 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_ReportNewIssue
+2017-04-12 15:25:21,788 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Create a New Issue
+2017-04-12 15:25:21,788 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:25:21,788 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test case name isAT_Verify_UpdateIssueStatus
+2017-04-12 15:25:21,789 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:25:21,789 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_UpdateIssueStatus@@@@@@Time5.372
+2017-04-12 15:25:21,789 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is5.372
+2017-04-12 15:25:21,789 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case5.372
+2017-04-12 15:25:21,789 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:25:21,789 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_UpdateIssueStatus@@@@@@Time5.372
+2017-04-12 15:25:21,789 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is5.372
+2017-04-12 15:25:21,789 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@1c32386d
+2017-04-12 15:25:21,790 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Firefox
+2017-04-12 15:25:21,790 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_UpdateIssueStatus
+2017-04-12 15:25:21,794 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Update Issue Status
+2017-04-12 15:25:21,801 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:25:21,802 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Skipped tests for suite 'Mantis Automation Execution' is:0
+2017-04-12 15:25:22,237 [main] INFO  com.ceiwc.compugain.funUtil.BarChart - Key : ISSUES Value : 2
+2017-04-12 15:25:22,260 [main] INFO  com.ceiwc.compugain.funUtil.BarChart - File path is /src/test/resources/GroupsReport.jpeg
+2017-04-12 15:25:22,260 [main] INFO  com.ceiwc.compugain.funUtil.BarChart - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\GroupsReport.jpeg
+2017-04-12 15:25:22,408 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report Created in Test-output------------------------------------------
+2017-04-12 15:25:22,409 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report Created in Test-output------------------------------------------
+2017-04-12 15:25:22,409 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report Created in Test-output------------------------------------------
+2017-04-12 15:25:22,409 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report Created in Test-output------------------------------------------
+2017-04-12 15:25:22,409 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report Created in Test-output------------------------------------------
+2017-04-12 15:25:22,409 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - source file path isC:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\test-output\html
+2017-04-12 15:25:22,412 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - -----------------2-----------------
+2017-04-12 15:25:22,413 [main] INFO  com.ceiwc.compugain.funUtil.FileOperation - Directoryis fount and files are getting added
+2017-04-12 15:25:22,414 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - -----------------3-----------------
+2017-04-12 15:25:22,414 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - dest folder is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\BackupReports\CEIWC.zip
+2017-04-12 15:25:22,454 [main] INFO  com.ceiwc.compugain.setup.Configuration - Browser parameter isnull
+2017-04-12 15:25:22,454 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The bcc recipeients are rohith.kakumani@compugain.com
+2017-04-12 15:25:22,454 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The bcc recipeients are manoj.immadi@compugain.com
+2017-04-12 15:25:22,454 [main] INFO  com.ceiwc.compugain.setup.Configuration - Test Case File isnull
+2017-04-12 15:25:22,454 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Exception handled in email test cases
+2017-04-12 15:25:22,455 [main] INFO  com.compugain.beansfactory.BeanFactory - ip address is172.24.12.169
+2017-04-12 15:25:22,455 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Key : ISSUES Value : 2
+2017-04-12 15:25:22,455 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Group Name isISSUES
+2017-04-12 15:25:22,455 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Passed cases in Group2
+2017-04-12 15:25:22,456 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Failed cases in Group2
+2017-04-12 15:25:22,456 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Skipped cases in Group0
+2017-04-12 15:25:22,456 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - @@@@@@@@@@@@@@@@@Passed Percentage for Group50.0
+2017-04-12 15:25:22,456 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - @@@@@@@@@@@@@@@@@Failed Percentage for Group50.0
+2017-04-12 15:25:22,456 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - @@@@@@@@@@@@@@@@@Skipped Percentage for Group0.0
+2017-04-12 15:25:22,456 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Completed Creation of Table
+2017-04-12 15:25:22,463 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The images in the set are 1
+2017-04-12 15:25:22,472 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The file name isC:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\FailedCases.csv
+2017-04-12 15:25:22,472 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The file name isC:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\PassedCases.csv
+2017-04-12 15:25:40,774 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Passed Group Map Value is{ISSUES=2}
+2017-04-12 15:25:40,775 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed Group Map Value is{ISSUES=2}
+2017-04-12 15:25:40,775 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Skipped Group Map Value is{}
+2017-04-12 15:30:57,624 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\FailedCases.csv
+2017-04-12 15:30:57,627 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\PassedCases.csv
+2017-04-12 15:30:57,627 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\SkippedCases.csv
+2017-04-12 15:30:57,769 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 15:31:00,824 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 15:31:02,024 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:31:02,024 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:31:02,027 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:31:04,015 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 15:31:04,016 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 15:31:05,922 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 15:31:05,923 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 15:31:08,953 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 15:31:08,953 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 15:31:11,416 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 15:31:11,437 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:31:11,627 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 15:31:11,628 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:31:11,812 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 15:31:11,813 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:31:11,997 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 15:31:11,998 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:31:12,192 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 15:31:57,937 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::true
+2017-04-12 15:31:57,937 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::true
+2017-04-12 15:31:57,937 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 15:31:57,938 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (be96c54928b7838946e9fd574af777e1)
+2017-04-12 15:31:57,938 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : true</br>Actual Value :true::PASS,
+2017-04-12 15:31:57,938 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_ReportNewIssue::::PASSED
+2017-04-12 15:31:58,775 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:chrome
+2017-04-12 15:32:01,101 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,chrome
+2017-04-12 15:32:02,256 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:32:02,257 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:32:02,257 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:32:04,211 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::UserName Entered ,administrator
+2017-04-12 15:32:04,211 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - UserName Entered administrator
+2017-04-12 15:32:06,054 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Password Entered ,root
+2017-04-12 15:32:06,054 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Password Entered root
+2017-04-12 15:32:08,847 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked on Login Button,
+2017-04-12 15:32:08,847 [main] INFO  com.ceiwc.compugain.pageobjects.MantisLoginPage - Clicked on Login Button
+2017-04-12 15:32:11,212 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Report Issue Option Clicked,
+2017-04-12 15:32:11,220 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:32:11,414 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedalways
+2017-04-12 15:32:11,415 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:32:11,593 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedmajor
+2017-04-12 15:32:11,593 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:32:11,772 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedhigh
+2017-04-12 15:32:11,772 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:32:11,951 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedAli
+2017-04-12 15:32:56,393 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::true
+2017-04-12 15:32:56,394 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::true
+2017-04-12 15:32:56,394 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 15:32:56,394 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (f6ba7024a2ca6a33aaf1295c73b0161a)
+2017-04-12 15:32:56,394 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : true</br>Actual Value :true::PASS,
+2017-04-12 15:32:56,395 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_UpdateIssueStatus::::PASSED
+2017-04-12 15:32:58,888 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::clicked Edit Button,
+2017-04-12 15:32:58,897 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - In dropdown selection method
+2017-04-12 15:32:59,078 [main] INFO  com.ceiwc.compugain.funUtil.WebElements - The value to be selectedclosed
+2017-04-12 15:32:59,079 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Selected Value From Status Dropdown,closed
+2017-04-12 15:33:29,511 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Clicked Update Information option, 
+2017-04-12 15:33:29,568 [main] INFO  com.compugain.Exception.CustomReport - @@@@Expected ::::false
+2017-04-12 15:33:29,569 [main] INFO  com.compugain.Exception.CustomReport - @@@@sActual ::::false
+2017-04-12 15:33:29,569 [main] INFO  com.compugain.Exception.CustomReport - I am in customized report expected equals
+2017-04-12 15:33:29,569 [main] INFO  com.compugain.Exception.CustomReport - driver value in customize report ChromeDriver: chrome on XP (f6ba7024a2ca6a33aaf1295c73b0161a)
+2017-04-12 15:33:29,569 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Expected Value : false</br>Actual Value :false::PASS,
+2017-04-12 15:33:29,570 [main] INFO  com.compugain.Exception.CustomReport - sTestcaseNameAT_Verify_UpdateIssueStatus::::PASSED
+2017-04-12 15:33:30,353 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:firefox
+2017-04-12 15:33:35,922 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser name : Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0
+2017-04-12 15:33:35,957 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,firefox
+2017-04-12 15:33:36,968 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:33:36,968 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:33:36,968 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:33:37,022 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser Name:firefox
+2017-04-12 15:33:41,540 [main] INFO  com.ceiwc.compugain.setup.TestBase - Browser name : Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0
+2017-04-12 15:33:41,549 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::Browser Launched ,firefox
+2017-04-12 15:33:42,684 [main] INFO  com.ceiwc.compugain.setup.TestBase - Application lauched with URLhttp://localhost/mantisbt/login_page.php
+2017-04-12 15:33:42,684 [main] INFO  com.compugain.Exception.CustomReport - In Reporter Method:::URL Entered ,http://localhost/mantisbt/login_page.php
+2017-04-12 15:33:42,684 [main] INFO  com.ceiwc.compugain.setup.BasePage - Creation of Constructer of basepage
+2017-04-12 15:33:42,755 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - THe Build No isnull
+2017-04-12 15:33:42,756 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Suite Name isMantis Automation Execution
+2017-04-12 15:33:42,756 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Passed test case name isAT_Verify_ReportNewIssue
+2017-04-12 15:33:42,757 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:33:42,758 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_ReportNewIssue@@@@@@Time61.002
+2017-04-12 15:33:42,758 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is61.002
+2017-04-12 15:33:42,758 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@635572a7
+2017-04-12 15:33:42,758 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Chrome
+2017-04-12 15:33:42,759 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_ReportNewIssue
+2017-04-12 15:33:42,760 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Create a New Issue
+2017-04-12 15:33:42,760 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:33:42,761 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Passed test case name isAT_Verify_UpdateIssueStatus
+2017-04-12 15:33:42,761 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:33:42,762 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_UpdateIssueStatus@@@@@@Time91.533
+2017-04-12 15:33:42,762 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is91.533
+2017-04-12 15:33:42,762 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@635572a7
+2017-04-12 15:33:42,763 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Chrome
+2017-04-12 15:33:42,763 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_UpdateIssueStatus
+2017-04-12 15:33:42,764 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Update Issue Status
+2017-04-12 15:33:42,766 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:33:42,767 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed tests for suite 'Mantis Automation Execution' is:0
+2017-04-12 15:33:42,767 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test are[ResultMap map={}]
+2017-04-12 15:33:42,767 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Skipped tests for suite 'Mantis Automation Execution' is:0
+2017-04-12 15:33:42,767 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed tests for suite 'Mantis Automation Execution' is:2
+2017-04-12 15:33:42,769 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test are[ResultMap map={[TestResult name=AT_Verify_ReportNewIssue status=FAILURE method=MantisTestCases.AT_Verify_ReportNewIssue(java.lang.String)[pri:1, instance:com.compugain.testcases.MantisTestCases@282003e1] output=Step-1:Browser Launched firefox<br>]=MantisTestCases.AT_Verify_ReportNewIssue(java.lang.String)[pri:1, instance:com.compugain.testcases.MantisTestCases@282003e1], [TestResult name=AT_Verify_UpdateIssueStatus status=FAILURE method=MantisTestCases.AT_Verify_UpdateIssueStatus(java.lang.String)[pri:2, instance:com.compugain.testcases.MantisTestCases@282003e1] output=Step-1:Browser Launched firefox<br>]=MantisTestCases.AT_Verify_UpdateIssueStatus(java.lang.String)[pri:2, instance:com.compugain.testcases.MantisTestCases@282003e1]}]
+2017-04-12 15:33:42,769 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test case name isAT_Verify_ReportNewIssue
+2017-04-12 15:33:42,769 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:33:42,769 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_ReportNewIssue@@@@@@Time6.658
+2017-04-12 15:33:42,769 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is6.658
+2017-04-12 15:33:42,770 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case6.658
+2017-04-12 15:33:42,771 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:33:42,771 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_ReportNewIssue@@@@@@Time6.658
+2017-04-12 15:33:42,771 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is6.658
+2017-04-12 15:33:42,771 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@1c32386d
+2017-04-12 15:33:42,771 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Firefox
+2017-04-12 15:33:42,772 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_ReportNewIssue
+2017-04-12 15:33:42,772 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Create a New Issue
+2017-04-12 15:33:42,772 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:33:42,772 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed test case name isAT_Verify_UpdateIssueStatus
+2017-04-12 15:33:42,772 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:33:42,775 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_UpdateIssueStatus@@@@@@Time5.693
+2017-04-12 15:33:42,775 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is5.693
+2017-04-12 15:33:42,775 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case5.693
+2017-04-12 15:33:42,785 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - I am in to duration method
+2017-04-12 15:33:42,788 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - AT_Verify_UpdateIssueStatus@@@@@@Time5.693
+2017-04-12 15:33:42,788 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The duration of test case is5.693
+2017-04-12 15:33:42,788 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - ######The writer is java.io.FileWriter@1c32386d
+2017-04-12 15:33:42,788 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Name:Mantis Executionon Firefox
+2017-04-12 15:33:42,788 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Method Name:AT_Verify_UpdateIssueStatus
+2017-04-12 15:33:42,789 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Test Case Description:Update Issue Status
+2017-04-12 15:33:42,789 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - The Operating system iswindows 7
+2017-04-12 15:33:42,789 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Skipped tests for suite 'Mantis Automation Execution' is:0
+2017-04-12 15:33:43,226 [main] INFO  com.ceiwc.compugain.funUtil.BarChart - Key : ISSUES Value : 2
+2017-04-12 15:33:43,250 [main] INFO  com.ceiwc.compugain.funUtil.BarChart - File path is /src/test/resources/GroupsReport.jpeg
+2017-04-12 15:33:43,251 [main] INFO  com.ceiwc.compugain.funUtil.BarChart - The File Path is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\GroupsReport.jpeg
+2017-04-12 15:33:43,402 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report Created in Test-output------------------------------------------
+2017-04-12 15:33:43,402 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report Created in Test-output------------------------------------------
+2017-04-12 15:33:43,402 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report Created in Test-output------------------------------------------
+2017-04-12 15:33:43,402 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report Created in Test-output------------------------------------------
+2017-04-12 15:33:43,403 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Report Created in Test-output------------------------------------------
+2017-04-12 15:33:43,403 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - source file path isC:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\test-output\html
+2017-04-12 15:33:43,406 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - -----------------2-----------------
+2017-04-12 15:33:43,407 [main] INFO  com.ceiwc.compugain.funUtil.FileOperation - Directoryis fount and files are getting added
+2017-04-12 15:33:43,408 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - -----------------3-----------------
+2017-04-12 15:33:43,408 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - dest folder is C:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\BackupReports\CEIWC.zip
+2017-04-12 15:33:43,443 [main] INFO  com.ceiwc.compugain.setup.Configuration - Browser parameter isnull
+2017-04-12 15:33:43,444 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The bcc recipeients are rohith.kakumani@compugain.com
+2017-04-12 15:33:43,444 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The bcc recipeients are manoj.immadi@compugain.com
+2017-04-12 15:33:43,444 [main] INFO  com.ceiwc.compugain.setup.Configuration - Test Case File isnull
+2017-04-12 15:33:43,444 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Exception handled in email test cases
+2017-04-12 15:33:43,445 [main] INFO  com.compugain.beansfactory.BeanFactory - ip address is172.24.12.169
+2017-04-12 15:33:43,445 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Key : ISSUES Value : 2
+2017-04-12 15:33:43,445 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Group Name isISSUES
+2017-04-12 15:33:43,445 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Passed cases in Group2
+2017-04-12 15:33:43,445 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Failed cases in Group2
+2017-04-12 15:33:43,445 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - ------------Skipped cases in Group0
+2017-04-12 15:33:43,445 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - @@@@@@@@@@@@@@@@@Passed Percentage for Group50.0
+2017-04-12 15:33:43,446 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - @@@@@@@@@@@@@@@@@Failed Percentage for Group50.0
+2017-04-12 15:33:43,446 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - @@@@@@@@@@@@@@@@@Skipped Percentage for Group0.0
+2017-04-12 15:33:43,446 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - Completed Creation of Table
+2017-04-12 15:33:43,450 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The images in the set are 1
+2017-04-12 15:33:43,461 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The file name isC:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\FailedCases.csv
+2017-04-12 15:33:43,461 [main] INFO  com.ceiwc.compugain.funUtil.SendMail - The file name isC:\Users\aabhesheke\git\CEIWC-Demo\DemoProject\src\test\resources\PassedCases.csv
+2017-04-12 15:33:59,912 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Passed Group Map Value is{ISSUES=2}
+2017-04-12 15:33:59,912 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Failed Group Map Value is{ISSUES=2}
+2017-04-12 15:33:59,912 [main] INFO  com.ceiwc.compugain.funUtil.CustomReporter - Skipped Group Map Value is{}
