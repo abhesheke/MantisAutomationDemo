@@ -19,7 +19,7 @@
 		<!--ZAPI Plugin -->
 
 
-		<selenium.version>3.0.1</selenium.version>
+		<selenium.version>3.3.1</selenium.version>
 
 		<log4j.version>1.2.15</log4j.version>
 
@@ -150,7 +150,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-firefox-driver</artifactId>
-			<version>3.0.1</version>
+			<version>3.3.1</version>
 		</dependency>
 
 		<!-- <dependency> <groupId>com.google.guava</groupId> <artifactId>guava</artifactId> 

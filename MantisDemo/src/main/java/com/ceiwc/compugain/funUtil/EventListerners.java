@@ -137,5 +137,25 @@ public class EventListerners implements WebDriverEventListener{
 		// TODO Auto-generated method stub
 		
 	}
+
+	public void afterAlertAccept(WebDriver arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void afterAlertDismiss(WebDriver arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void beforeAlertAccept(WebDriver arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void beforeAlertDismiss(WebDriver arg0) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

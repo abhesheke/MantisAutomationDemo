@@ -41,8 +41,8 @@ public   class TestBase implements Setup,Epic_Group,EnviromentAccounts{
 	private static Logger logger = Logger.getLogger(TestBase.class);
 	private static String versionvalue="";
 	public String DBSTRING=null;
-			
-	protected static final String sbrowser="chrome";
+
+	protected static final String sbrowser="firefox";
 
 
 
@@ -50,7 +50,7 @@ public   class TestBase implements Setup,Epic_Group,EnviromentAccounts{
 		WebDriver driver=null;
 		logger.info("Test Base Version is"+Configuration.getGrid());
 		logger.info("Test Base Browser is"+sbrowser);
-		 sgrid=Configuration.getGrid();
+		sgrid=Configuration.getGrid();
 		if(sgrid.equalsIgnoreCase(""))
 		{ 
 			sbrowser=Configuration.getAutomationBrowser();
@@ -58,40 +58,40 @@ public   class TestBase implements Setup,Epic_Group,EnviromentAccounts{
 		}
 		else if (!sgrid.equalsIgnoreCase("")&&!sbrowser.equalsIgnoreCase(""))
 		{
-        logger.info("I am in Grid Intialization");
-		DesiredCapabilities capabilities = new DesiredCapabilities();
-		URL hubUrl = null;
-		try {
-			hubUrl = new URL("http://localhost:4444/wb/hub");
-			if (sbrowser.equalsIgnoreCase("firefox")) {
-				FirefoxProfile profile = new FirefoxProfile();
-				profile.setPreference("browser.download.folderList", 2);
-				capabilities.setBrowserName(DesiredCapabilities.firefox()
-						.getBrowserName());
-				capabilities.setPlatform(Platform.WINDOWS);
-				driver= new RemoteWebDriver(new URL(
-						"http://localhost:4444/wd/hub"), capabilities);
-				//remoteWebDriver.setFileDetector(new LocalFileDetector());
+			logger.info("I am in Grid Intialization");
+			DesiredCapabilities capabilities = new DesiredCapabilities();
+			URL hubUrl = null;
+			try {
+				hubUrl = new URL("http://localhost:4444/wb/hub");
+				if (sbrowser.equalsIgnoreCase("firefox")) {
+					FirefoxProfile profile = new FirefoxProfile();
+					profile.setPreference("browser.download.folderList", 2);
+					capabilities.setBrowserName(DesiredCapabilities.firefox()
+							.getBrowserName());
+					capabilities.setPlatform(Platform.WINDOWS);
+					driver= new RemoteWebDriver(new URL(
+							"http://localhost:4444/wd/hub"), capabilities);
+					//remoteWebDriver.setFileDetector(new LocalFileDetector());
+				}
+				if (sbrowser.equalsIgnoreCase("chrome")) {
+					System.setProperty("webdriver.chrome.driver",
+							getFilePath(CHROMEPATH));
+					capabilities.setBrowserName(DesiredCapabilities.chrome()
+							.getBrowserName());
+					//capabilities.setVersion(sversion1);
+					capabilities.setPlatform(Platform.WINDOWS);
+					driver = new RemoteWebDriver(new URL(
+							"http://localhost:4444/wd/hub"), capabilities);
+				}
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
 			}
-			if (sbrowser.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver",
-						getFilePath(CHROMEPATH));
-				capabilities.setBrowserName(DesiredCapabilities.chrome()
-						.getBrowserName());
-				//capabilities.setVersion(sversion1);
-				capabilities.setPlatform(Platform.WINDOWS);
-				driver = new RemoteWebDriver(new URL(
-						"http://localhost:4444/wd/hub"), capabilities);
-			}
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
 		}
 		return driver;
 
 	}
 
-	
+
 	/**
 	 *  Initializes web driver object based on the browser type
 	 * @param sbrowser : THe browser we need to run
@@ -99,7 +99,7 @@ public   class TestBase implements Setup,Epic_Group,EnviromentAccounts{
 	 * @return : Webdriver object
 	 */
 	public  WebDriver initializeDriver(String sbrowser/*,String surl*/) {
-WebDriver driver = null;
+		WebDriver driver = null;
 		logger.info("Browser Name:"+sbrowser);
 		//	logger.info(" Application surl:"+surl);
 		if(driver==null)
@@ -154,39 +154,44 @@ WebDriver driver = null;
 		    capabilities.setBrowserName(sbrowser);
 			capabilities.setPlatform(org.openqa.selenium.Platform.ANY);
 			capabilities.setCapability(FirefoxDriver.PROFILE, profile);
-			
+
 				 */	
 				System.setProperty("webdriver.gecko.driver", getFilePath(FIREFOXPATH));
 				//String downloadPath = getFilePath(DOWNLOADSPATH);
-			//	FirefoxProfile profile = new FirefoxProfile();
-				/*profile.setPreference("browser.download.folderList", 2);
+				FirefoxProfile profile = new FirefoxProfile();
+				profile.setPreference("browser.download.folderList", 2);
 				profile.setPreference("browser.download.manager.showWhenStarting", false);
-				profile.setPreference("browser.download.dir", downloadPath);
+				profile.setPreference("browser.download.dir",getFilePath( DOWNLOADSPATH));
 				profile.setPreference("browser.helperApps.neverAsk.openFile",
 						"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
 				profile.setPreference("browser.helperApps.neverAsk.saveToDisk",
-		"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
+						"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
 				profile.setPreference("browser.helperApps.alwaysAsk.force", false);
+				 //  profile.setPreference("browser.download.useDownloadDir", true);
 				profile.setPreference("browser.download.manager.alertOnEXEOpen", false);
 				profile.setPreference("browser.download.manager.focusWhenStarting", false);
 				profile.setPreference("browser.download.manager.useWindow", false);
 				profile.setPreference("browser.download.manager.showAlertOnComplete", false);
 				profile.setPreference("browser.download.manager.closeWhenDone", false);
 				profile.setPreference("xpinstall.signatures.required", false);
-				logger.info("The Profile Setup Data");*/
-				
-				driver = new FirefoxDriver();
+			//	 profile.setPreference("browser.download.panel.shown",false);
+				logger.info("The Profile Setup Data");
+				DesiredCapabilities cap = DesiredCapabilities.firefox();
+				cap.setCapability("marionette", true);
+				cap.setCapability(FirefoxDriver.PROFILE, profile);
+				//cap.setCapability("firefox_binary","C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe");
+				driver = new FirefoxDriver(cap);
 				/*webdriver= new EventFiringWebDriver(driver);
 				EventListerners eventListerners=new EventListerners();
 				webdriver.register(eventListerners);
-			*/	String s = (String) ((JavascriptExecutor) driver).executeScript("return navigator.userAgent;");
+				 */	String s = (String) ((JavascriptExecutor) driver).executeScript("return navigator.userAgent;");
 				 logger.info("Browser name : " + s);
 			}
-			
-			
-			
+
+
+
 			else if(sbrowser.equalsIgnoreCase("Chrome")){
-			/*	logger.info("The Profile set up started @@@@@@@@@@@@@@@@@@@@@@@@@@@");
+				/*	logger.info("The Profile set up started @@@@@@@@@@@@@@@@@@@@@@@@@@@");
 				System.setProperty("webdriver.chrome.driver", getFilePath(CHROMEPATH));
 				HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
 				chromePrefs.put("profile.default_content_settings.popups", 0);
@@ -201,21 +206,21 @@ WebDriver driver = null;
 				cap.setCapability(ChromeOptions.CAPABILITY, options);
 			   logger.info("Initializing chrome webDriver");
 				driver = new ChromeDriver(cap);
-			*/	
+				 */	
 				driver = new ChromeDriver(chromeProfileSetUp());
-			//	logger.info("The Profile set up Ended #####################");
-				
-				
-				 //driver = new ChromeDriver(chromeProfileSetUp());
-			/*	 webdriver= new EventFiringWebDriver(driver);
+				//	logger.info("The Profile set up Ended #####################");
+
+
+				//driver = new ChromeDriver(chromeProfileSetUp());
+				/*	 webdriver= new EventFiringWebDriver(driver);
 				 EventListerners eventListerners=new EventListerners();
 				 webdriver.register(eventListerners);
-*/
-				 String s = (String) ((JavascriptExecutor) driver).executeScript("return navigator.userAgent;");
-					System.out.println("Browser name : " + s.split("Chrome"));
-					String[] result = s.split("Chrome");
-			//		logger.info("Result value is"+result[1].substring(1,6));
-					versionvalue=result[1].substring(1,6);
+				 */
+				String s = (String) ((JavascriptExecutor) driver).executeScript("return navigator.userAgent;");
+				System.out.println("Browser name : " + s.split("Chrome"));
+				String[] result = s.split("Chrome");
+				//		logger.info("Result value is"+result[1].substring(1,6));
+				versionvalue=result[1].substring(1,6);
 				//	setVersionvalue(versionvalue);
 			}
 			else if(sbrowser.equalsIgnoreCase("IE"))
@@ -232,18 +237,18 @@ WebDriver driver = null;
 			   }*/
 
 				driver= new InternetExplorerDriver(ieProfileSetUp());
-/*				 webdriver= new EventFiringWebDriver(driver);
+				/*				 webdriver= new EventFiringWebDriver(driver);
 				 EventListerners eventListerners=new EventListerners();
 				 webdriver.register(eventListerners);
-*/			}
+				 */			}
 			else if(sbrowser.equalsIgnoreCase("Safari"))
 			{
 				DesiredCapabilities capabilities = DesiredCapabilities.safari();
 				driver = new SafariDriver(capabilities);
-/*				 webdriver= new EventFiringWebDriver(driver);
+				/*				 webdriver= new EventFiringWebDriver(driver);
 				 EventListerners eventListerners=new EventListerners();
 				 webdriver.register(eventListerners);
-*/			}
+				 */			}
 
 		}
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
@@ -266,7 +271,7 @@ WebDriver driver = null;
 				profile.setPreference("browser.helperApps.neverAsk.openFile",
 						"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
 				profile.setPreference("browser.helperApps.neverAsk.saveToDisk",
-		"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
+						"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
 				profile.setPreference("browser.helperApps.alwaysAsk.force", false);
 				profile.setPreference("browser.download.manager.alertOnEXEOpen", false);
 				profile.setPreference("browser.download.manager.focusWhenStarting", false);
@@ -276,11 +281,11 @@ WebDriver driver = null;
 				profile.setPreference("xpinstall.signatures.required", false);
 				logger.info("The Profile Setup Data");
 				secondDriver = new FirefoxDriver(profile);
- 			//secondDriver = new FirefoxDriver(firefoxProfileSetUp());
+				//secondDriver = new FirefoxDriver(firefoxProfileSetUp());
 				/* webdriver= new EventFiringWebDriver(driver);
 				 EventListerners eventListerners=new EventListerners();
 				 webdriver.register(eventListerners);
-				*/ 
+				 */ 
 			}
 			else if(sbrowser.equalsIgnoreCase("Chrome")){
 				/*System.setProperty("webdriver.chrome.driver", getFilePath(CHROMEPATH));
@@ -295,12 +300,12 @@ WebDriver driver = null;
 				cap.setCapability(ChromeOptions.CAPABILITY, chromeOptionsMap);
 				cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 				cap.setCapability(ChromeOptions.CAPABILITY, options);
-			*/	secondDriver = new ChromeDriver(chromeProfileSetUp());
-				//secondDriver = new ChromeDriver(chromeProfileSetUp());
-			/*	 webdriver= new EventFiringWebDriver(driver);
+				 */	secondDriver = new ChromeDriver(chromeProfileSetUp());
+				 //secondDriver = new ChromeDriver(chromeProfileSetUp());
+				 /*	 webdriver= new EventFiringWebDriver(driver);
 				 EventListerners eventListerners=new EventListerners();
 				 webdriver.register(eventListerners);
-	*/		}
+				  */		}
 			else if(sbrowser.equalsIgnoreCase("IE"))
 			{
 				/*if (System.getProperty("os.arch").contains("86")) {
@@ -314,18 +319,18 @@ WebDriver driver = null;
 			    		 getFilePath("/src/test/resources/Browsers_Binaries/IE/IEDriverServer64.exe"));
 			   }*/
 				secondDriver= new InternetExplorerDriver(ieProfileSetUp());
-				 /*webdriver= new EventFiringWebDriver(driver);
+				/*webdriver= new EventFiringWebDriver(driver);
 				 EventListerners eventListerners=new EventListerners();
 				 webdriver.register(eventListerners);
-			*/}
+				 */}
 			else if(sbrowser.equalsIgnoreCase("Safari"))
 			{
 				DesiredCapabilities capabilities = DesiredCapabilities.safari();
 				secondDriver = new SafariDriver(capabilities);
-			/*	 webdriver= new EventFiringWebDriver(driver);
+				/*	 webdriver= new EventFiringWebDriver(driver);
 				 EventListerners eventListerners=new EventListerners();
 				 webdriver.register(eventListerners);
-			*/}
+				 */}
 
 		}
 		secondDriver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
@@ -347,7 +352,7 @@ WebDriver driver = null;
 				profile.setPreference("browser.helperApps.neverAsk.openFile",
 						"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
 				profile.setPreference("browser.helperApps.neverAsk.saveToDisk",
-		"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
+						"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
 				profile.setPreference("browser.helperApps.alwaysAsk.force", false);
 				profile.setPreference("browser.download.manager.alertOnEXEOpen", false);
 				profile.setPreference("browser.download.manager.focusWhenStarting", false);
@@ -357,19 +362,19 @@ WebDriver driver = null;
 				profile.setPreference("xpinstall.signatures.required", false);
 				logger.info("The Profile Setup Data");
 				thirdDriver = new FirefoxDriver(profile);
- 		
-							//thirdDriver = new FirefoxDriver(firefoxProfileSetUp());
-			/*	 webdriver= new EventFiringWebDriver(driver);
+
+				//thirdDriver = new FirefoxDriver(firefoxProfileSetUp());
+				/*	 webdriver= new EventFiringWebDriver(driver);
 				 EventListerners eventListerners=new EventListerners();
 				 webdriver.register(eventListerners);
-			*/}
+				 */}
 			else if(sbrowser.equalsIgnoreCase("Chrome")){
- 			thirdDriver = new ChromeDriver(chromeProfileSetUp());
-         	}
+				thirdDriver = new ChromeDriver(chromeProfileSetUp());
+			}
 			else if(sbrowser.equalsIgnoreCase("IE"))
 			{
-			thirdDriver= new InternetExplorerDriver(ieProfileSetUp());
-		    }
+				thirdDriver= new InternetExplorerDriver(ieProfileSetUp());
+			}
 			else if(sbrowser.equalsIgnoreCase("Safari"))
 			{
 				DesiredCapabilities capabilities = DesiredCapabilities.safari();
@@ -382,7 +387,7 @@ WebDriver driver = null;
 		//return webdriver;
 	}
 
-	
+
 	public  WebDriver driverIntialization(String sbrowser) {
 		WebDriver fourthdriver=null;
 		sbrowser=Configuration.getAutomationBrowser();
@@ -398,7 +403,7 @@ WebDriver driver = null;
 				profile.setPreference("browser.helperApps.neverAsk.openFile",
 						"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
 				profile.setPreference("browser.helperApps.neverAsk.saveToDisk",
-		"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
+						"text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
 				profile.setPreference("browser.helperApps.alwaysAsk.force", false);
 				profile.setPreference("browser.download.manager.alertOnEXEOpen", false);
 				profile.setPreference("browser.download.manager.focusWhenStarting", false);
@@ -408,14 +413,14 @@ WebDriver driver = null;
 				profile.setPreference("xpinstall.signatures.required", false);
 				logger.info("The Profile Setup Data");
 				fourthdriver = new FirefoxDriver(profile);
- 		}
+			}
 			else if(sbrowser.equalsIgnoreCase("Chrome")){
 				fourthdriver = new ChromeDriver(chromeProfileSetUp());
-         	}
+			}
 			else if(sbrowser.equalsIgnoreCase("IE"))
 			{
 				fourthdriver= new InternetExplorerDriver(ieProfileSetUp());
-		    }
+			}
 			else if(sbrowser.equalsIgnoreCase("Safari"))
 			{
 				DesiredCapabilities capabilities = DesiredCapabilities.safari();
@@ -426,18 +431,18 @@ WebDriver driver = null;
 		fourthdriver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 		return fourthdriver;
 	}
-	
-	
+
+
 	public void navigateTo(String surl,WebDriver driver)
 	{
-		
+
 		driver.manage().deleteAllCookies();
 		driver.navigate().to(surl);
 	}
 
 	public void navigateTo(String surl)
 	{
-		
+
 		driver.manage().deleteAllCookies();
 		driver.navigate().to(surl);
 	}
@@ -452,7 +457,7 @@ WebDriver driver = null;
 		driver.get(surl);
 		logger.info("Application lauched with URL"+surl);
 	}
-	
+
 	public void launchURL(String surl,WebDriver driver)
 	{
 		driver.get(surl);
@@ -470,14 +475,14 @@ WebDriver driver = null;
 	{
 		try
 		{
-		driver.quit();
-		driver=null;
+			driver.quit();
+			driver=null;
 		}
 		catch(Exception e)
 		{
 			logger.info("Event Driver is Not Initialized");
 		}
-	
+
 
 	}
 	public void browserQuit_WithoutLogout()
@@ -490,7 +495,7 @@ WebDriver driver = null;
 	public String getFilePath(String sFilepath) {
 		char cforwardslash = (char) 47;
 		char cbackslash = (char) 92;
-	//	logger.info("File path is "+sFilepath);
+		//	logger.info("File path is "+sFilepath);
 		String sPath = System.getProperty("user.dir").replace(cbackslash,
 				cforwardslash)
 				+ sFilepath;
@@ -498,7 +503,7 @@ WebDriver driver = null;
 		File file = new File(sPath);
 		if (file.exists()) {
 			sPath = file.getAbsolutePath();
-	//		logger.info("The File Path is " + sPath);
+			//		logger.info("The File Path is " + sPath);
 		} else {
 		}
 		return sPath;
@@ -695,21 +700,21 @@ WebDriver driver = null;
 	}
 
 
-	
+
 	public Vector<String> getSanityuserslist()
 	{
 		Vector<String> userslist=new Vector<String>();
 		String sbrowser=Configuration.getAutomationBrowser();
 		//userslist.add(uservalue);
 		for(int i=0;i<10;i++)
-        {
-		userslist.add(SANITYUSER+i);
-	    }
+		{
+			userslist.add(SANITYUSER+i);
+		}
 		logger.info("User list is"+userslist);
 		return userslist;
 	}
 
-	
+
 	/*public FirefoxProfile firefoxProfileSetUp()
 	{
 		FirefoxProfile firefoxProfile = new FirefoxProfile();
@@ -723,7 +728,7 @@ WebDriver driver = null;
 				"image/jpg,text/csv,text/xml,text/plain,application/xml,application/json,application/vnd.ms-excel,application/octet-stream, application/x-excel,application/x-msexcel,application/excel,application/pdf");
 	  return firefoxProfile;
 	}*/
-	
+
 	public  FirefoxProfile firefoxProfileSetUp() {
 		FirefoxProfile profile = new FirefoxProfile();
 		String downloadFilepath = getFilePath(DOWNLOADSPATH);
@@ -744,7 +749,7 @@ WebDriver driver = null;
 		return profile;
 	}
 
-	
+
 	public DesiredCapabilities chromeProfileSetUp()
 	{
 		System.setProperty("webdriver.chrome.driver", getFilePath(CHROMEPATH));
@@ -752,6 +757,10 @@ WebDriver driver = null;
 		HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
 		chromePrefs.put("profile.default_content_settings.popups", 0);
 		chromePrefs.put("download.default_directory", downloadFilepath);
+		chromePrefs.put("download.prompt_for_download", false);
+		chromePrefs.put("browser. helperApps. alwaysAsk. force",true);
+		chromePrefs.put("browser. helperApps. neverAsk. saveToDisk","text/csv,application/x-msexcel,application/excel");
+		chromePrefs.put("browser. helperApps. neverAsk. saveasToDisk","text/csv,application/x-msexcel,application/excel");
 		ChromeOptions options = new ChromeOptions();
 		HashMap<String, Object> chromeOptionsMap = new HashMap<String, Object>();
 		options.setExperimentalOption("prefs", chromePrefs);
@@ -762,28 +771,29 @@ WebDriver driver = null;
 		cap.setCapability(ChromeOptions.CAPABILITY, options);
 		options.addArguments("--always-authorize-plugins");
 		options.addArguments("--ignore-certificate-errors");
-	//	logger.info("The Chrome Profile is setup");
-	   return cap;	
+
+		//	logger.info("The Chrome Profile is setup");
+		return cap;	
 	}
-	
-  public DesiredCapabilities ieProfileSetUp()
-  {
-	System.setProperty("webdriver.ie.driver",
-			getFilePath(IEPATH));
-	DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
-	caps.setCapability(
-			InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
-			true);
-	caps.setCapability("ignoreZoomSetting", true);
-	caps.setCapability("ignoreProtectedModeSettings" , true);
-	caps.setCapability("enablePersistentHover", true);
-	caps.setCapability("nativeEvents",false);
-	try {
-		Runtime.getRuntime().exec("RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 255");
-	} catch (IOException e) {
-		e.printStackTrace();
-	}
-    return caps;
-  }	
-	
+
+	public DesiredCapabilities ieProfileSetUp()
+	{
+		System.setProperty("webdriver.ie.driver",
+				getFilePath(IEPATH));
+		DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
+		caps.setCapability(
+				InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
+				true);
+		caps.setCapability("ignoreZoomSetting", true);
+		caps.setCapability("ignoreProtectedModeSettings" , true);
+		caps.setCapability("enablePersistentHover", true);
+		caps.setCapability("nativeEvents",false);
+		try {
+			Runtime.getRuntime().exec("RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 255");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return caps;
+	}	
+
 }

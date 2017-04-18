@@ -11,7 +11,6 @@ import com.compugain.Exception.CustomReport;
 
 public class MantisDashBoardPage extends WebElements{
 
-
 	private WebDriver driver;
 	private CustomReport customReport;
 	private BasePage basePage;
@@ -29,6 +28,10 @@ public class MantisDashBoardPage extends WebElements{
 	By ticketsLocator=By.xpath("//*[contains(text(),'Tickets')]");
 	By customerUISearchLocator=By.xpath("//li[contains(@title,'Search')]");
 	By reportIssueLocator=By.xpath("//*[contains(text(),' Report Issue')]");
+	By dashbaorddropdown=By.xpath("//*[contains(@name,'action')]");
+	By okbuttonlocator=By.xpath("//*[contains(@value,'OK')]");
+	By clickDeleteIssueLocator=By.xpath("//*[contains(@value,'Delete Issues')]");
+	By csvexportlocator=By.xpath("//*[contains(text(),'CSV Export')]");
 	
 	public MantisReportIssuePage clickReportIssue(){
 		click(reportIssueLocator);
@@ -40,6 +43,18 @@ public class MantisDashBoardPage extends WebElements{
 	public boolean verifyIssuePresent(String issueName){
 		By issuename=By.xpath("//*[contains(text(),'"+issueName+"')]");
 		return isDisplayedWithoutException(issuename);
+	}
+	
+	public int getIssueCount() {
+		By bugsListrowscount=By.xpath("//table[contains(@id,'buglist')]/tbody/tr");
+		int count=elements(bugsListrowscount);
+		System.out.println("Bugs Count ::: "+count);
+		return count;
+	}
+	
+	public void clickCSVExport() {
+		click(csvexportlocator);
+		customReport.reporter("Clicked CSV File "," ");
 	}
 	
 	
@@ -68,11 +83,26 @@ public class MantisDashBoardPage extends WebElements{
 	}
 	
 	
+	public void CheckIssueCheckBox(String issuename) {
+		By checkboxlocator=By.xpath("//*[contains(text(),'"+issuename+"')]/../td[1]/div/label/span");
+		check_Checkbox(checkboxlocator);
+	}
 	
 	
+	public void selectdashboarddropdownvalue(String dropdownValue){
+		selectValuefromDropDown(dashbaorddropdown,dropdownValue);
+		customReport.reporter("selected issue checkbox", " ");
+	}
 	
+	public void clickOk(){
+		click(okbuttonlocator);
+		customReport.reporter("clicked ok button", " ");
+	}
 	
-	
+	public void clickDeleteIssue(){
+		click(clickDeleteIssueLocator);
+		customReport.reporter("clicked delete issue button", " ");
+	}
 	
 	/*public CustomerSearchPage clickCustomerUISearch(){
 		click(customerUISearchLocator);
