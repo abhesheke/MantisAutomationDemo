@@ -41,7 +41,7 @@ public   class TestBase implements Setup,Epic_Group,EnviromentAccounts{
 	private static Logger logger = Logger.getLogger(TestBase.class);
 	public String DBSTRING=null;
 
-	public static final String sbrowser="firefox";
+	
 
 
 

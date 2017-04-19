@@ -8,7 +8,7 @@ package com.ceiwc.compugain.setup;
 public interface Setup extends DeviceSetup{
 	  final String MONGOUSERNAME="vbrick";
 	 final String MONGOPASSWORD="Changeme1";
-
+	 public static final String sbrowser="firefox";
 	 public static final String LIVEURL="rtmp://27.254.84.3:1935/live/ttyud.stream";
 	 public static final int LABEL=1,BUTTON=2,A=3,H4=4,SPAN=5,DIV=6,STAR=7,XPATH=8;
 	//Browser Configuration
