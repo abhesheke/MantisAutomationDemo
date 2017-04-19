@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>MantisDemo</groupId>
 	<artifactId>MantisDemo</artifactId>
-	<version>7.14</version>
+	<version>1.0</version>
 	<name>MantisDemo</name>
 	<description>MantisDemo</description>
 	<properties>
@@ -83,7 +83,7 @@
 						<echo>the suite file name is ${SuiteName} </echo>
 					</property>
 					<suiteXmlFiles>
-						<suiteXmlFile> ${SuiteName}</suiteXmlFile>
+						<suiteXmlFile> Mantis.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
