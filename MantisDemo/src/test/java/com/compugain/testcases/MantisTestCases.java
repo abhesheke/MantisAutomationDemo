@@ -1,9 +1,7 @@
 package com.compugain.testcases;
 
 import java.util.ArrayList;
-import java.util.Locale;
 import java.util.Properties;
-import java.util.ResourceBundle;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -27,14 +25,11 @@ import com.compugain.dao.ReportIssueBean;
 public class MantisTestCases extends TestBase{
 
 
-	private ResourceBundle bundle;
-	private Locale locale;
+	
 	private static Logger logger = Logger.getLogger(MantisTestCases.class);
 
 	@BeforeClass
 	public void beforeClass(){
-		locale = new Locale("en");
-		bundle = ResourceBundle.getBundle("ResourceBundle.BundleFile", locale);
 		Properties props = System.getProperties();
 		props.setProperty("org.uncommons.reportng.title", "Mantis Automation Report");
 	}

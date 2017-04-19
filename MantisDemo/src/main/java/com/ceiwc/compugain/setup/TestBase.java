@@ -39,7 +39,6 @@ public   class TestBase implements Setup,Epic_Group,EnviromentAccounts{
 	public String surl,surlA,surlB,surlC,surlD,surlE,surlF;
 	public static String language="en";
 	private static Logger logger = Logger.getLogger(TestBase.class);
-	private static String versionvalue="";
 	public String DBSTRING=null;
 
 	public static final String sbrowser="firefox";
@@ -218,9 +217,7 @@ public   class TestBase implements Setup,Epic_Group,EnviromentAccounts{
 				 */
 				String s = (String) ((JavascriptExecutor) driver).executeScript("return navigator.userAgent;");
 				System.out.println("Browser name : " + s.split("Chrome"));
-				String[] result = s.split("Chrome");
 				//		logger.info("Result value is"+result[1].substring(1,6));
-				versionvalue=result[1].substring(1,6);
 				//	setVersionvalue(versionvalue);
 			}
 			else if(sbrowser.equalsIgnoreCase("IE"))
