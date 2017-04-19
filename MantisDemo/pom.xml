@@ -24,7 +24,7 @@
 		<log4j.version>1.2.15</log4j.version>
 
 		<mavensurefire>2.16</mavensurefire>
-		<mavencompilerplugin>1.6</mavencompilerplugin>
+		<mavencompilerplugin>1.8</mavencompilerplugin>
 		<apachehttpcomponents>4.3.5</apachehttpcomponents>
 
 		<riakclient>1.1.4</riakclient>
