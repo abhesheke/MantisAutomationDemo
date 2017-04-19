@@ -42,7 +42,7 @@ public   class TestBase implements Setup,Epic_Group,EnviromentAccounts{
 	private static String versionvalue="";
 	public String DBSTRING=null;
 
-	protected static final String sbrowser="firefox";
+	public static final String sbrowser="firefox";
 
 
 

@@ -83,7 +83,7 @@
 						<echo>the suite file name is ${SuiteName} </echo>
 					</property>
 					<suiteXmlFiles>
-						<suiteXmlFile>CEIWC_CrossBrowser.xml</suiteXmlFile>
+						<suiteXmlFile> ${SuiteName}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

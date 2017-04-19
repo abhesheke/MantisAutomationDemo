@@ -6,18 +6,18 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 		<listener class-name="com.ceiwc.compugain.funUtil.CustomReporter" />
 	</listeners>
-	<!-- <test name="Mantis Executionon Chrome">
+	<test name="Mantis Executionon Chrome">
 		<parameter name="sbrowser" value="chrome" />
 		<classes>
 			<class name="com.compugain.testcases.MantisTestCases">
 			</class>
 		</classes>
-	</test> -->
-	 <test name="Mantis Executionon Firefox">
+	</test>
+	<test name="Mantis Executionon Firefox">
 		<parameter name="sbrowser" value="firefox" />
 		<classes>
 			<class name="com.compugain.testcases.MantisTestCases">
 			</class>
 		</classes>
-		</test>
+	</test>
 </suite>

@@ -187,7 +187,7 @@ public class MantisTestCases extends TestBase{
 		}	
 		logger.info("CSV Bug Count ::::: "+bugsSize.size());
 		customReport.customizedReport(expectedBugCount, bugsSize.size()-1, statusValue, driver, sTestcaseName);
-	//	browserQuit(driver);
+		browserQuit(driver);
 		customReport.checkinglist(statusValue);
 	}
 }
