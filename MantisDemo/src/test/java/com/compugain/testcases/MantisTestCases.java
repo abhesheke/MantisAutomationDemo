@@ -36,7 +36,7 @@ public class MantisTestCases extends TestBase{
 
 	@Parameters("sbrowser")
 	@Test(priority=1,description="Create a New Issue",groups="ISSUES")
-	public void AT_Verify_ReportNewIssue(@Optional(sbrowser)String sbrowser){
+	public void AT_Verify_ReportNewIssue(@Optional(SBROWSER)String sbrowser){
 
 		String sTestcaseName = new Object(){}.getClass().getEnclosingMethod().getName();
 		CustomReport customReport=new CustomReport();
@@ -66,7 +66,7 @@ public class MantisTestCases extends TestBase{
 
 	@Parameters("sbrowser")
 	@Test(priority=2,description="Update Issue Status",groups="ISSUES")
-	public void AT_Verify_UpdateIssueStatus(@Optional(sbrowser)String sbrowser){
+	public void AT_Verify_UpdateIssueStatus(@Optional(SBROWSER)String sbrowser){
 
 		String sTestcaseName = new Object(){}.getClass().getEnclosingMethod().getName();
 		CustomReport customReport=new CustomReport();
@@ -101,7 +101,7 @@ public class MantisTestCases extends TestBase{
 
 	@Parameters("sbrowser")
 	@Test(priority=3,description="Delete Issue from Mantis",groups="ISSUES")
-	public void AT_Verify_DleteIssue(@Optional(sbrowser)String sbrowser){
+	public void AT_Verify_DleteIssue(@Optional(SBROWSER)String sbrowser){
 
 		String sTestcaseName = new Object(){}.getClass().getEnclosingMethod().getName();
 		CustomReport customReport=new CustomReport();
@@ -135,7 +135,7 @@ public class MantisTestCases extends TestBase{
 	
 	@Parameters("sbrowser")
 	@Test(priority=4,description="Export Issues into CSV",groups="ISSUES")
-	public void AT_Verify_ExportIssuesintoCSV(@Optional(sbrowser)String sbrowser){
+	public void AT_Verify_ExportIssuesintoCSV(@Optional(SBROWSER)String sbrowser){
 		
 		if(FileOperation.fileExist(getFilePath(DOWNLOADSPATH+"/AutomationDemo.csv"))) {
 			FileOperation.deleteFile(getFilePath(DOWNLOADSPATH+"/AutomationDemo.csv"));	

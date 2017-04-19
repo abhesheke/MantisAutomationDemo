@@ -30,7 +30,7 @@
 		<riakclient>1.1.4</riakclient>
 		<jsonsimple>1.1.1</jsonsimple>
 		<restassured>1.4</restassured>
-		<testngjar>6.9.9</testngjar>
+		<testngjar>6.9.10</testngjar>
 		<commonsnet>2.0</commonsnet>
 		<commonsio>2.4</commonsio>
 		<jfreechart>1.0.13</jfreechart>
