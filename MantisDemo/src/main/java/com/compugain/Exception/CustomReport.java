@@ -114,7 +114,7 @@ public class CustomReport {
 		this.driver = driver;
 		logger.info("Expected value is"+sExpected);
 		logger.info("Actual  value  is"+sActual);
-		if (sExpected==sActual) {
+		if (sExpected<=sActual) {
 			/*Reasons.reporter("Expected Value " + sExpected + "</br>" + "Actual Value"
 					+ sActual + "::PASS", "");*/
 			System.setProperty("org.uncommons.reportng.escape-output", "false");
@@ -126,7 +126,9 @@ public class CustomReport {
 			logger.info("sTestcaseName"+sTestcaseName+"::::"+"PASSED");
 			j=j+1;
 
-		} else {
+		} 
+		
+		else {
 			/*Reasons.reporter("Expected Value " + sExpected + "\n" + "Actual Value"	+ sActual + "::Fail" + AssertionresultOutput(driver,sTestcaseName),"");*/
 			reporter("<font color='red'>"+"Expected Value " + sExpected + "\n" + "Actual Value"	+ sActual + "::Fail" +/* AssertionresultOutput(driver,sTestcaseName)+*/"</font>","");
 			statusValue.add("FAIL");

@@ -48,6 +48,12 @@ public class MantisDashBoardPage extends WebElements{
 	public int getIssueCount() {
 		By bugsListrowscount=By.xpath("//table[contains(@id,'buglist')]/tbody/tr");
 		int count=elements(bugsListrowscount);
+		//By bugsListrowscount=By.xpath("//*[@id='bug_action']/div/div[1]/h4/span");
+		/*String Value=driver.findElement(By.xpath("//*[@id='bug_action']/div/div[1]/h4/span")).getText();
+		String[] TextValue=Value.split("/");
+		String CountString=TextValue[1];
+		int count=Integer.parseInt(CountString);*/
+	
 		System.out.println("Bugs Count ::: "+count);
 		return count;
 	}
@@ -76,7 +82,7 @@ public class MantisDashBoardPage extends WebElements{
 	
 	public MantisEditIssuePage clickEditIssue(String issuename){
 		
-		By editbuttonlocator=By.xpath("//*[contains(text(),'"+issuename+"')]/../td[2]/a");
+		By editbuttonlocator=By.xpath("//*[contains(text(),'"+issuename+"')]/../td[2]/a");//*[@id='buglist']/tbody/tr[1]/td[4]/a
 		click(editbuttonlocator);
 		customReport.reporter("clicked Edit Button","");
 		return basePage.mantisEditIssuePage(driver, customReport, basePage);

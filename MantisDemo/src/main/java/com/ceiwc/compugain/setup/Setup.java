@@ -5,7 +5,7 @@ package com.ceiwc.compugain.setup;
 /**
  * Hold all the Constants value for the Entire Project
  */
-public interface Setup extends DeviceSetup{
+public interface Setup{
 	  final String MONGOUSERNAME="vbrick";
 	 final String MONGOPASSWORD="Changeme1";
 	 
@@ -39,7 +39,7 @@ public interface Setup extends DeviceSetup{
       //File Path for Email Code and Zip Code.
     public final String EMAILCONFIG="/src/main/resources/EmailConfig/EmailConfiguration.properties";
     public final String OUTPUT_ZIP_FILE_REPORTS = "/BackupReports";
-    public final String OUTPUT_ZIP_FILE = OUTPUT_ZIP_FILE_REPORTS +"/CEIWC.zip";
+    public final String OUTPUT_ZIP_FILE = OUTPUT_ZIP_FILE_REPORTS +"/Mantis.zip";
     public final String SOURCE_REPORTSFOLDER = "/test-output/html";
     public final String WMVVIDEOSPATH="/src/test/resources/Videos/wave.wmv";
     public final String GAMEVIDEOSPATH="/src/test/resources/Videos/Game.mp4";
@@ -145,9 +145,9 @@ public interface Setup extends DeviceSetup{
     public static boolean sanityrunstatus=false;
     public static String USERCREATION="true";
     public final String FIREFOXPATH ="/src/test/resources/Browsers_Binaries/Firefox/geckodriver.exe"; 
-    public final String MANTISApplicationURL="http://localhost/mantisbt/login_page.php";
-    public final String MantisUserName="administrator";
-    public final String MantisPassword="root";
+    public final String MANTISApplicationURL="http://localhost/mantisbt-2.9.0/login_page.php";
+    public final String MantisUserName="raju";
+    public final String MantisPassword="root1";
     public final String CustomerApplicationURL="http://172.24.2.39/users.pl";
     public final String customerUserName="aabhesheke";
     public final String customerPassword="Roopa@123";

@@ -126,7 +126,7 @@ public class  SendMail implements Setup
 			logger.info("Report Created in Test-output------------------------------------------");
 		else {
 			logger.info("Report NOT Created----------------------------");
-			Thread.sleep(5000);
+			//Thread.sleep(5000);
 		}
 		}
 		
@@ -147,7 +147,7 @@ public class  SendMail implements Setup
 
 		final Properties props = new Properties();
 		props.load(new FileInputStream(getFilePath(EMAILCONFIG)));
-		props.put("mail.smtp.user", "manoj.immadi@Compugain.com");
+		props.put("mail.smtp.user", "vivek.kundarapu@compugain.com");
 		props.put("mail.smtp.host", "smtp.outlook.com");
 		props.put("mail.smtp.port", "25");
 		//props.put("mail.debug", "true");

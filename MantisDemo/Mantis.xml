@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Mantis Automation Execution" parallel="false">
+<suite name="Mantis Automation Execution" >
 	<listeners>
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 		<listener class-name="com.ceiwc.compugain.funUtil.CustomReporter" />
 	</listeners>
-	<test name="Mantis Executionon Chrome">
+	 <test name="Mantis Executionon Chrome">
 		<parameter name="sbrowser" value="chrome" />
 		<classes>
 			<class name="com.compugain.testcases.MantisTestCases">
 			</class>
 		</classes>
-	</test>
-	<test name="Mantis Executionon Firefox">
+	</test>  
+	 <test name="Mantis Executionon Firefox1">
 		<parameter name="sbrowser" value="firefox" />
 		<classes>
 			<class name="com.compugain.testcases.MantisTestCases">
 			</class>
 		</classes>
-	</test>
+	</test> -->
+	
+	 <test name="Mantis Executionon IE">
+		<parameter name="sbrowser" value="IE" />
+		<classes>
+			<class name="com.compugain.testcases.MantisTestCases">
+			</class>
+		</classes>
+	</test> 
 </suite>

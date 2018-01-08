@@ -4,7 +4,7 @@ public interface EnviromentAccounts {
 
 
 
-	public String AutomationURL = "http://172.24.12.141:9000/";
+	public String AutomationURL = "http://localhost/mantisbt-2.9.0/login_page.php";
 	
 	
 	

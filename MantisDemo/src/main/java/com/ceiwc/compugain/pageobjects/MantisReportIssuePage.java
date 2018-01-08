@@ -76,7 +76,7 @@ public class MantisReportIssuePage extends WebElements{
 		selectReproducibility(reportissuebean);
 		selectSeverity(reportissuebean);
 		selectPriority(reportissuebean);
-		selectAssignTo(reportissuebean);
+		//selectAssignTo(reportissuebean);
 		enterSummary(reportissuebean);
 		enterDescription(reportissuebean);
 		enterStepsToReproduce(reportissuebean);

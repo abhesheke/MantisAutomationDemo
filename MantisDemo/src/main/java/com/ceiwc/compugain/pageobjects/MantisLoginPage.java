@@ -26,12 +26,19 @@ public class MantisLoginPage extends WebElements{
 	By userNameLocator=By.id("username");
 	By passwordLocator=By.id("password");
 	By loginButtonLocator=By.xpath("//input[@type='submit']");
+	//Changes Made by me 
+	By loginButtonLocatorUser=By.xpath("//input[@type='submit' and @value='Login']");
 	
 	
 	public MantisDashBoardPage loginas(String userName,String password){
 		enterUserName(userName);
 		customReport.reporter("UserName Entered ", userName);
 		logger.info("UserName Entered "+userName);
+		//Changes Made by me 
+		clickLogin();	
+		customReport.reporter("Clicked on User Login Button","");
+		logger.info("Clicked on User Login Button");
+		
 		enterPassword(password);
 		customReport.reporter("Password Entered ", password);
 		logger.info("Password Entered "+password);
@@ -50,7 +57,11 @@ public class MantisLoginPage extends WebElements{
 	public void clickLogin(){
 		click(loginButtonLocator);
 	}
+	//Changes Made by me 
+	public void clickLoginUser(){
+		click(loginButtonLocatorUser);
 	
+	}
 	
 	
 	

@@ -44,7 +44,7 @@ public class MantisTestCases extends TestBase{
 		WebDriver driver=initializeDriver(sbrowser);
 		customReport.reporter("Browser Launched ", sbrowser);
 		/*		String browservalue=sbrowser;
-		 */		launchURL(MANTISApplicationURL,driver);
+		 */		launchURL(AutomationURL,driver);
 		 customReport.reporter("URL Entered ", MANTISApplicationURL);
 		 BasePage basePage=new BasePage();
 		 MantisLoginPage mantisloginpage=basePage.mantisLoginPage(driver, customReport, basePage);
@@ -137,8 +137,8 @@ public class MantisTestCases extends TestBase{
 	@Test(priority=4,description="Export Issues into CSV",groups="ISSUES")
 	public void AT_Verify_ExportIssuesintoCSV(@Optional(SBROWSER)String sbrowser){
 		
-		if(FileOperation.fileExist(getFilePath(DOWNLOADSPATH+"/AutomationDemo.csv"))) {
-			FileOperation.deleteFile(getFilePath(DOWNLOADSPATH+"/AutomationDemo.csv"));	
+		if(FileOperation.fileExist(getFilePath(DOWNLOADSPATH+"/MantisDemo.csv"))) {
+			FileOperation.deleteFile(getFilePath(DOWNLOADSPATH+"/MantisDemo.csv"));	
 			logger.info("File Deleted");
 		}else {
 			logger.info("File is not avalible");
@@ -163,14 +163,17 @@ public class MantisTestCases extends TestBase{
 		mantisDashBoardPage.pause(5000);
 		//ArrayList<String> bugsList=mantisDashBoardPage.verifyReportSummary();
 		//System.out.println("BUGS LIST ::: "+bugsList);
-		customReport.customizedReport(true,mantisDashBoardPage.verify_label(reportissuebean.getSummary()).contains(reportissuebean.getSummary()), statusValue, driver, sTestcaseName);
+		//customReport.customizedReport(true,mantisDashBoardPage.verify_label(reportissuebean.getSummary()).contains(reportissuebean.getSummary()), statusValue, driver, sTestcaseName);
 		
 		int expectedBugCount=mantisDashBoardPage.getIssueCount();
 		logger.info("Expetced Bug Count ::::: "+expectedBugCount);
 		
 		mantisDashBoardPage.clickCSVExport();
+		//changes made by me 
+		
+		
 		mantisDashBoardPage.pause(7000);
-		ArrayList<String> csvfiledata=FileOperation.ReadCSVFile(getFilePath(DOWNLOADSPATH+"/AutomationDemo.csv"));
+		ArrayList<String> csvfiledata=FileOperation.ReadCSVFile(getFilePath(DOWNLOADSPATH+"/MantisDemo.csv"));
 		
 		ArrayList<String> bugsSize=new ArrayList<String>();
 		
